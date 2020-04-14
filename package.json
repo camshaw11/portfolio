@@ -1,0 +1,15 @@
+{
+  "name": "cameronshaw-website",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://camshaw11.github.io/portfolio",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
