@@ -91,7 +91,8 @@ html {
 }
 .project-box {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column nowrap;
+	align-items: center;
 	justify-content: center;
 }
 
@@ -263,6 +264,7 @@ body {
 	}
 	.project-box {
 		justify-content: flex-start;
+		align-items: flex-start;
 		padding: 1em;
 	}
 
