@@ -55,7 +55,7 @@ body {
 }
 .column-three {
 	grid-area: column3;
-	background-color: var(--orange);
+	background-color: var(--dark-color);
 }
 .column-four {
 	grid-area: column4;
@@ -95,7 +95,7 @@ body {
 	font-family: 'Share', sans-serif;
 	font-size: 0.4em;
 	line-height: 1;
-	color: white;
+	color: var(--orange);
 	text-transform: uppercase;
 	margin: 2em 1em 1em 1em;
 }
@@ -138,7 +138,7 @@ body {
 	margin-bottom: 0;
 }
 a, .github-link {
-	color: var(--dark-color);
+	color: var(--orange);
 	text-decoration: underline;
 }
 span {
@@ -251,7 +251,7 @@ span {
 		padding: 0.5em;
 	}
 	a, .github-link {
-		color: var(--dark-color);
+		color: var(--orange);
 		text-decoration: underline;
 	}
 	.project-container {
@@ -267,7 +267,7 @@ span {
 		margin: 0;
 	} 
 	.about-intro, .title-small {
-		font-size: 0.6em;
+		font-size: 0.5em;
 		margin: 1em 1em 3em 1em;
 	}
 	.title-contact {
@@ -337,7 +337,7 @@ span {
 		transition: 0.5s ease;
 	}
 	.project-box:hover {
-		box-shadow: 7px 7px 0px 9px var(--dark-color);
+		/* box-shadow: 7px 7px 0px 9px var(--dark-color); */
 	}
 	span {
 		background-color: var(--dark-color);
