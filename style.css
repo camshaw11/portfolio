@@ -32,10 +32,10 @@ body {
 	font-size: 3em;
 	font-family: Arial, helvetica, sans-serif;
 	background-color: var(--dark-color);
-	background-image: radial-gradient(
+	/* background-image: radial-gradient(
         #7aea72 0.5px,
         transparent 0.5px
-    );
+    ); */
     background-size: 10px 10px;
 }
 
@@ -212,6 +212,10 @@ a {
 	width: 90vw;
 }
 
+.image-search {
+	margin: .5em 0 0.5em 0;
+}
+
 .gallery {
 	display: grid;
 	grid-template-rows: 1fr;
@@ -256,6 +260,13 @@ button {
 }
 
 @media (min-width: 670px) { 
+
+	.wrapper {
+		background-image: radial-gradient(
+			#7aea72 0.5px,
+			transparent 0.5px
+		);
+	}
 
 	.column-two {
 		padding: 1em;
