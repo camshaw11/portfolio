@@ -32,10 +32,6 @@ body {
 	font-size: 3em;
 	font-family: Arial, helvetica, sans-serif;
 	background-color: var(--dark-color);
-	/* background-image: radial-gradient(
-        #7aea72 0.5px,
-        transparent 0.5px
-    ); */
     background-size: 10px 10px;
 }
 
@@ -50,9 +46,6 @@ body {
 nav {
 	position: absolute;
 	bottom: 10px;
-	/* display: flex;
-	flex-direction: row;
-	justify-content: space-evenly; */
 	width: 100vw;
 }
 
@@ -128,21 +121,19 @@ p {
 }
 .title-small {
 	font-size: 0.6em;
-	/* margin: 1em; */
 	text-align: left;
 	font-family: 'Share', sans-serif;
 }
 .project-name {
-	font-size: 1em;
+	font-size: 2em;
+	opacity: 0.2;
 	cursor: help;
 	color: coral;
-	/* margin-bottom: 0.5em; */
 	left: 70px;
 }
 
 .project-box {
 	margin-top: 50px;
-	/* padding: 1em; */
 	position: relative;
 	min-height: 90vh;
 
@@ -190,26 +181,28 @@ a {
 .content {
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	width: 100%;
 }
 
 .image {
-	/* height: 30vh; */
 	width: 50vw;
 	opacity: 0.8;
 	margin-top: 0.5em;
-	/* display: none; */
 }
 
 .image-night, .image-trivul {
-	/* height: 20vh; */
 	width: 96vw;
 }
 
 .image-cam {
 	width: 90vw;
+	transition: 2s ease-in-out;
+}
+
+.image-cam:hover {
+	filter: saturate(344);
 }
 
 .image-search {
@@ -274,6 +267,7 @@ button {
 
 	.project-name {
 		position: absolute;
+		font-size: 3em;
 	}
 
 	.project-box {
@@ -296,7 +290,7 @@ button {
 	}
 
 	.about-project {
-		padding: 1em;
+		/* padding: 1em; */
 		width: auto;
 		margin-top: 100px;
 	}
@@ -324,7 +318,7 @@ button {
 	
 	.image-vinyl {
 		height: auto;
-		width: 6em;
+		width: 7.5em;
 	}
 	
 	.image-night {
@@ -334,14 +328,18 @@ button {
 	
 	.image-search {
 		height: auto;
-		width: 6em;
+		width: 7.5em;
 	}
 }
 
 @media (min-width: 1000px) {
+	.project-name {
+		font-size: 6em;
+	}
+
 	.about-project {
 		width: 35vw;
-		margin-top: 0;
+		margin-top: 10em;
 	}
 
 	.content {
