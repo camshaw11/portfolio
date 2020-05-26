@@ -6,93 +6,141 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 	<link href="style.css" rel="stylesheet">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163814385-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-163814385-1');
 	</script>
 </head>
 <body>
 	<div class="wrapper">
-		<div class="column-profile">
-			<h1 class="title title-name" class="anim">Cameron</h1>
-		</div>
-		<div class="column-info">
-			<h1 class="title title-name" class="anim">Shaw</h1>
-		</div>
-		<div class="column column-three">
-			<p class="about-intro">Front End Developer & Designer based in Wellington, NZ</p>
-			<p class="about about-work">Previously, I was a Graphic Design intern at NOSIGNER in Japan. Helping the designers with projects and mockups.<br><br>
-				<!-- ~ Before that, I was teaching English deep in the countryside of Japan. Bit of a change.. I know, but I'm willing to learn. ~ -->
-				<br><br> Now I'm looking for a <code>developer</code> role to jump into, grow my skills and be a part of something bigger. Check out my source code 
-				<a class="github-link"href="https://github.com/camshaw11" target="blank">here</a>
-			</p>
-			<h2 class="title title-small title-contact">Contact</h2>
-			<p class="about contact">Flick me an <a href="mailto:cameronshaw95@gmail.com" target="_blank">email</a> or you can find me here:
-				<a href="https://www.linkedin.com/in/cameron-shaw-085b2614b/" target="_blank">LinkedIn</a>, 
-				<a href="https://github.com/camshaw11" target="_blank">GitHub</a><br>
-			</p>
-			<p class="about about-me">About me? I listen to angsty rap and drink black coffee. I dabble in anime, and I can speak a little Japanese.</p>
-			<canvas id="canvas"></canvas>
-			<p class="about about-website">This website was designed & developed with love by me.</p>
-			<img class="image-cam" src="img/cam-monkey.jpg" alt="picture of me">
+        <div class="home-page">
+			<h1 class="title title-name">Cameron Shaw</h1>
+			<nav>
+				<ul>
+					<li class="navbar-title">Stash</li>
+					<li class="navbar-title">Trivul</li>
+					<li class="navbar-title">Vinyl</li>
+					<li class="navbar-title">Night</li>
+					<li class="navbar-title">Search</li>
+				</ul>
+			</nav>
+        </div>
+		<div class="column column-two">
+
+			<div class="about-me-wrapper">
+				<!-- <p class="about-intro">Front End Developer & Designer based in Wellington, NZ</p> -->
+				<p class="about about-work">Previously, I was a Graphic Design intern at NOSIGNER in Japan. Helping the designers with projects and mockups.<br>
+					<!-- ~ Before that, I was teaching English deep in the countryside of Japan. Bit of a change.. I know, but I'm willing to learn. ~ -->
+					Now I'm looking for a new role to jump into, grow my skills and be a part of something bigger. Check out my source code 
+					<a class="github-link"href="https://github.com/camshaw11" target="blank">here</a>
+				</p>
+			</div>
+			<div class="img-box">
+				<img class="image-cam" src="img/cam-monkey.jpg" alt="picture of me">
+				<!-- <img class="image-cam" src="img/cam-monkey.jpg" alt="picture of me"> -->
+				<!-- <img class="image-cam" src="img/cam-monkey.jpg" alt="picture of me"> -->
+			</div>
+
+
+
+			<div class="contact-wrapper">
+				<!-- <h2 class="title title-small">Contact</h2> -->
+				<p class="about contact">Flick me an <a href="mailto:cameronshaw95@gmail.com" target="_blank">email</a> or you can find me here:
+					<a href="https://www.linkedin.com/in/cameron-shaw-085b2614b/" target="_blank">LinkedIn</a>, 
+					<a href="https://github.com/camshaw11" target="_blank">GitHub</a><br>
+				</p>
+			</div>
+
+
+			<!-- <p class="about about-me">About me? I listen to angsty rap and drink black coffee. I dabble in anime, and I can speak a little Japanese.</p> -->
+			<!-- <p class="about about-website">This website was designed & developed with love by me.</p> -->
+			<!-- <img class="image-cam" src="img/cam-monkey.jpg" alt="picture of me"> -->
 
 		</div>
-		<div class="column column-four">
-			<h2 class="title title-small">Projects</h2>
+		<div class="column column-three">
+			<!-- <h2 class="title title-small">Projects</h2> -->
 			<div class="project-container">
 				<div class="project-box">
 					<h3 id="first-project-title" class="title project-name">STASH</h3>
-					<p class="about about-project">
-						Stash was an insurance app prototype made during an internship for a business accelerator program.
-						<a href="images.html">View the mockups and more info here</a> 
-						<br><br><span>Front end prototyping /  Wireframing / UX / Logo design</span>
-					</p>
+					<div class="content">
+						<p class="about about-project">
+							Three month business accelerator program to plan and prototype a working application.
+							<br>&#8674; Designed and prototyped layouts for the mobile app.
+							<br>&#8674; Built working prototypes with UXPin for user experience testing
+							<br>&#8674; Team collaboration - this was my first experience working in a team. I had to communicate effectively and analytically explain my ideas.	
+						</p>
+						
+						<img class="image image-stash" id="default" src="img/stash/stash-one.png" alt="stash-mobile-mockup">
+
+						<div class="gallery">
+							<div class="small-btn btn1"></div>
+							<div class="small-btn btn2"></div>
+							<div class="small-btn btn3"></div>
+							<div class="small-btn btn4"></div>
+						</div>
+					</div>
 				</div>
 				<div class="project-box">
 					<h3 class="title project-name">TRIVUL</h3>
-					<p class="about about-project">
-						Trivul was a project that looked at creating an experience for tourists organising their trip in New Zealand. 
-						<a href="https://camshaw11.github.io/trivul/" target="_blank">View the live site here</a>
-						<br><br><span>HTML / CSS / JavaScript / GitHub / Gulp / Mapbox</span>
-					</p>
-					<!-- <img class="image image-trivul" src="img/trivul/trivul-splash.png" alt="trivul-mockup"> -->
-					<!-- <img class="image image-trivul" src="img/trivul/trivul-splash-two.png" alt="trivul-mockup"> -->
+					<div class="content">
+						<p class="about about-project">
+							Trivul was a project that looked at creating an experience for tourists organising their trip in New Zealand. 
+							<br><a href="https://camshaw11.github.io/trivul/" target="_blank">View the live site here</a>
+							<br>&#8674; Designed and developed the user interface
+							<br>&#8674; Integrated Mapbox API, an open source mapping platform
+							<br>&#8674; Gulp was utilised to streamline build process
+				
+							<br><br><span>HTML / CSS / JavaScript / GitHub / Gulp / Mapbox</span>
+						</p>
+						<img class="image image-trivul" src="img/trivul/trivul-splash-test.png" alt="trivul-mockup">
+					</div>
+					<!-- <img class="image image-trivul" src="img/trivul/trivul-splash-two-test.png" alt="trivul-mockup"> -->
 				</div>
 				<div class="project-box">
 					<h3 class="title project-name">VINYL</h3>
-					<p class="about about-project">
-						Vinyl was a web app prototype developed for an existing bar/restaurant. 
-						<a href="https://camshaw11.github.io/vinyl/" target="_blank">View the live site here - Ipad sized devices only</a><br><br>
-						<span>HTML / CSS / JavaScript / GitHub</span>
-					</p>
-					<!-- <img class="image image-vinyl" src="img/vinyl/vinyl-ipad.png" alt="vinyl-mockup"> -->
-
+					<div class="content">
+						<p class="about about-project">
+							Vinyl was a web app prototype developed for an existing bar/restaurant. 
+							<br><a href="https://camshaw11.github.io/vinyl/" target="_blank">View the live site here - Ipad sized devices only</a>
+							<br>&#8674; Improved customer engagement by providing table ordering via digital devices.
+							<br>&#8674; CSS Grid implemented to provide a structured layout
+							<br>&#8674; Translation feature available to turn the English text into Te Reo Maori
+							<br><br><span>HTML / CSS / JavaScript / GitHub</span>
+						</p>
+						<img class="image image-vinyl" src="img/vinyl/vinyl-ipad.png" alt="vinyl-mockup">
+					</div>
 				</div>
 				<div class="project-box">
 					<h3 class="title project-name">NIGHT</h3>
-					<p class="about about-project">
-						The Nightmarket was a website developed for an event in Wellington City. The task was to create a one page website
-						that promotes space and generates engagement. Responsive to all devices. 
-						<a href="https://camshaw11.github.io/nightmarket/" target="_blank">View the live site here.</a><br><br>
-						<span>Agile / HTML / CSS / JavaScript / GitHub</span>
-					</p>
-					<!-- <img class="image image-night" src="img/night/nightmarket-full.png" alt="night-mockup"> -->
+					<div class="content">
+							<p class="about about-project">
+								The Nightmarket was a website developed for an event in Wellington City. The task was to create a one page website
+								that promotes space and generates engagement.
+								<br><a href="https://camshaw11.github.io/nightmarket/" target="_blank">View the live site here.</a>
+								<br>&#8674; Designed and developed (within a team) a fully functional website.
+								<br>&#8674; Conducted research about user needs and wants for the website
+								<br><br><span>Agile / HTML / CSS / JavaScript / GitHub</span>
+							</p>
+							<!-- <h2><a href="https://camshaw11.github.io/nightmarket/" target="_blank">View the live site here.</a></h2> -->
+						<img class="image image-night" src="img/night/nightmarket-full.png" alt="night-mockup">
+					</div>
 				</div>
 				<div class="project-box">
 					<h3 class="title project-name">SEARCH</h3>
-					<p class="about about-project">
-						Search - Type in a word and see Wikipedia articles related to your search, with a “hacker” themed interface.
-						Search was a personal project I developed and designed to help solidify my JavaScript skills.
-						<a href="https://camshaw11.github.io/wiki-search/" target="_blank">View the live site here.</a><br><br>
-						<span>HTML / CSS / JavaScript / Fetch API / Scope</span>
-					</p>
-					<!-- <img class="image image-creo" src="img/creo/creo-laptop.png" alt="creo-mockup"> -->
-					<!-- <button class="scroll-to-top">&#8686;</button> -->
+					<div class="content">
+						<p class="about about-project">
+							Search - Type in a word and see Wikipedia articles related to your search, with a “hacker” themed interface.
+							Search was a personal project I developed and designed to help solidify my JavaScript skills.
+							<br><a href="https://camshaw11.github.io/wiki-search/" target="_blank">View the live site here.</a><br><br>
+							<span>Technical skills applied - HTML / CSS / JavaScript / Fetch API / Scope</span>
+						</p>
+						<img class="image image-search" src="img/search/image-search.png" alt="search-image">
+					</div>
+				</div>
+				<div class="footer">
+					<ul>
+						<li class="footer-title"><a href="mailto:cameronshaw95@gmail.com" target="_blank">Email</a></li>
+						<li class="footer-title"><a href="https://github.com/camshaw11" target="blank">Github</a></li>
+						<li class="footer-title"><a href="https://www.linkedin.com/in/cameron-shaw-085b2614b/" target="_blank">LinkedIn</a></li>
+						<li class="footer-title to-top"><a>TOP &#8963;</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
